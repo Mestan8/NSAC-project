@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scientific References · Space Lost &amp; Found</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:,">
+<script src="assets/js/motion-boot.js"></script>
+<link rel="preload" as="image" type="image/webp" href="assets/title-bands/references-lro-tycho-peak.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/references.css">
+<script src="assets/js/data.js"></script>
+</head>
+<body data-page="references">
+<a class="skip" href="#references">Skip to the references</a>
+
+<header class="hero" id="site-header"></header>
+<script src="assets/js/site-header.js"></script>
+
+<main>
+  <section class="section" id="references" aria-labelledby="ref-title">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-d="1">Reference data</p>
+      <h2 id="ref-title" class="reveal" data-d="2">Site reference table</h2>
+      <p class="lede reveal" data-d="3">Latitude and longitude are decimal degrees, east-positive, −180 to 180. All coordinates come from the published sources listed below. A site-level position means the exact spot of the object was not surveyed, so it is placed at the Lunar Module of its site. Column headers sort the table.</p>
+      <div class="table-wrap reveal" data-d="4" tabindex="0" role="region" aria-labelledby="ref-title">
+        <table id="site-table">
+          <thead><tr>
+            <th scope="col" data-key="name"><button type="button" class="sort">Object</button></th>
+            <th scope="col" data-key="body"><button type="button" class="sort">Body</button></th>
+            <th scope="col" data-key="mission"><button type="button" class="sort">Mission</button></th>
+            <th scope="col" data-key="year"><button type="button" class="sort">Year</button></th>
+            <th scope="col" data-key="lat"><button type="button" class="sort">Latitude</button></th>
+            <th scope="col" data-key="lon"><button type="button" class="sort">Longitude</button></th>
+            <th scope="col" data-key="type"><button type="button" class="sort">Position type</button></th>
+            <th scope="col" data-key="frame"><button type="button" class="sort">Frame</button></th>
+            <th scope="col" data-key="src"><button type="button" class="sort">Source</button></th>
+          </tr></thead>
+          <tbody id="site-rows"></tbody>
+        </table>
+      </div>
+
+      <h3 class="subhead reveal" data-d="1">Map references</h3>
+      <p class="lede reveal" data-d="2">The globe in The Map Explorer is an orthographic view with north up, drawn directly from these mosaics. Its optional grid lines are a latitude and longitude graticule.</p>
+      <div class="two">
+        <article class="panel refblock reveal" data-d="1">
+          <h4 class="panel-title">Moon</h4>
+          <dl>
+            <div><dt>Mosaic</dt><dd>CGI Moon Kit color map, 2025 version</dd></div>
+            <div><dt>Instrument</dt><dd>Lunar Reconnaissance Orbiter Camera, Wide Angle Camera (LROC WAC)</dd></div>
+            <div><dt>Source</dt><dd><a href="https://svs.gsfc.nasa.gov/4720" target="_blank" rel="noopener">NASA SVS 4720</a> · file lroc_color_16bit_srgb_4k.tif</dd></div>
+            <div><dt>Credit</dt><dd>NASA's Scientific Visualization Studio (visualizer Ernie Wright, scientist Noah Petro); LROC WAC Color Mosaic, Arizona State University</dd></div>
+            <div><dt>Projection</dt><dd>Equirectangular, centered on 0° longitude</dd></div>
+            <div><dt>Frame</dt><dd>East-positive lunar longitude. NASA SVS does not state a datum for this product; the object coordinates plotted on it are Mean Earth/Polar Axis.</dd></div>
+            <div><dt>Resolution</dt><dd>4096 × 2048 px, about 2.7 km per pixel at the equator</dd></div>
+            <div><dt>Processing</dt><dd>A processed visualization product, which NASA describes as optimized for aesthetics, not science. Adapted from the Hapke-normalized WAC mosaic using the 643, 566 and 415 nm bands, with exposure and white balance adjusted toward human vision. Latitudes beyond 70° are filled from a lower-resolution monochrome laser-altimeter albedo map, and small high-latitude dropouts are inpainted. Converted here from 16-bit TIFF to 8-bit JPEG. No lighting is added on this page.</dd></div>
+          </dl>
+        </article>
+        <article class="panel refblock reveal" data-d="2">
+          <h4 class="panel-title">Mars</h4>
+          <dl>
+            <div><dt>Mosaic</dt><dd>Viking MDIM 2.1 colorized global mosaic</dd></div>
+            <div><dt>Instrument</dt><dd>Viking Orbiter images; colorized by NASA Ames</dd></div>
+            <div><dt>Source</dt><dd><a href="https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m" target="_blank" rel="noopener">USGS Astrogeology product</a> · copy used: <a href="https://commons.wikimedia.org/wiki/File:Mars_Viking_MDIM21_ClrMosaic_1km.jpg" target="_blank" rel="noopener">Wikimedia Commons 1 km JPEG</a> (public domain)</dd></div>
+            <div><dt>Credit</dt><dd>NASA / JPL / USGS</dd></div>
+            <div><dt>Projection</dt><dd>Simple cylindrical (equirectangular) on a 3396.19 km sphere, −180° to 180°, centered on 0° longitude</dd></div>
+            <div><dt>Frame</dt><dd>Planetocentric latitude, east-positive longitude</dd></div>
+            <div><dt>Resolution</dt><dd>4096 × 2048 px, about 5.2 km per pixel at the equator (232 m/px product, reduced to 1 km/px on Commons, then resampled here)</dd></div>
+            <div><dt>Processing</dt><dd>The colors are artificial: they are applied over a mosaic of Viking Orbiter images and are not a measurement of surface color. Resampled here with a Lanczos filter and saved as JPEG. No lighting is added on this page.</dd></div>
+          </dl>
+        </article>
+      </div>
+
+      <h3 class="subhead reveal" data-d="1">Real vs. approximated</h3>
+      <div class="two">
+        <div class="panel hood reveal" data-d="1">
+          <h4><span class="dot" aria-hidden="true"></span>Real</h4>
+          <ul>
+            <li>Both base maps are mosaics of orbital spacecraft images.</li>
+            <li>Lunar Module, Surveyor 3, Apollo 15 retroreflector and Apollo 17 rover positions are measured from LRO images.</li>
+            <li>The InSight position is measured from a georeferenced HiRISE image.</li>
+            <li>The Mars Pathfinder position is the center of a HiRISE image in which the lander is identified at the center.</li>
+            <li>Viking 1 and Phoenix are at the published landing coordinates of landers that never moved.</li>
+          </ul>
+        </div>
+        <div class="panel hood reveal" data-d="2">
+          <h4><span class="dot approx" aria-hidden="true"></span>Approximated</h4>
+          <ul>
+            <li>The Apollo 14 golf balls, Apollo 16 photograph and waste bags have no surveyed position and are placed at the Lunar Module of their site.</li>
+            <li>The Spirit position is published only to 0.1° (about 6 km).</li>
+            <li>The Opportunity position is the center of a HiRISE image that contains the rover, not a surveyed rover coordinate.</li>
+            <li>Sojourner is shown at the Mars Pathfinder lander, because no latitude and longitude of its final position was found.</li>
+            <li>Ingenuity is shown at the Perseverance landing site, because no primary source for its final position could be opened.</li>
+            <li>Mars colors are artificial, and the lunar map beyond 70° latitude is filled from monochrome altimeter albedo.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="src-title">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-d="1">Sources</p>
+      <h2 id="src-title" class="reveal" data-d="2">Full sources list</h2>
+      <p class="lede reveal" data-d="3">Every coordinate and map on this page comes from one of these sources.</p>
+      <ul id="src-list" class="src-list reveal" data-d="4"></ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="credits-title">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-d="1">Credits</p>
+      <h2 id="credits-title" class="reveal" data-d="2">Map imagery credits</h2>
+      <p class="lede reveal" data-d="3">The two base maps on the globe, and who to credit for them.</p>
+      <div class="panel refblock reveal" data-d="4">
+        <dl>
+          <div><dt>Moon map</dt><dd><a href="https://svs.gsfc.nasa.gov/4720" target="_blank" rel="noopener">NASA's Scientific Visualization Studio</a> (visualizer Ernie Wright, scientist Noah Petro); LROC WAC Color Mosaic, Arizona State University</dd></div>
+          <div><dt>Mars map</dt><dd><a href="https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m" target="_blank" rel="noopener">NASA / JPL / USGS</a>, Viking MDIM 2.1 colorized global mosaic; copy used from <a href="https://commons.wikimedia.org/wiki/File:Mars_Viking_MDIM21_ClrMosaic_1km.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (public domain)</dd></div>
+          <div><dt>Lunar coordinates</dt><dd><a href="https://www.lroc.asu.edu/data/support/downloads/2016_LROC_Coordinates_of_Human_Features.pdf" target="_blank" rel="noopener">LROC Science Operations Team</a></dd></div>
+        </dl>
+      </div>
+
+      <h3 class="subhead reveal" data-d="1">Title band imagery</h3>
+      <p class="lede reveal" data-d="2">The photographs behind the title on each page: one per world on The Map Explorer, one on The Story Mode and one here. They are decorative and are not used for any position on the globe.</p>
+      <div class="two">
+        <article class="panel refblock reveal" data-d="1">
+          <h4 class="panel-title">Moon</h4>
+          <dl>
+            <div><dt>Title</dt><dd>Craters Emerging from Shadow</dd></div>
+            <div><dt>Image ID</dt><dd>art002e010032</dd></div>
+            <div><dt>Taken by</dt><dd>Artemis II crew, April 6, 2026, near Hertzsprung and Vavilov craters along the lunar terminator</dd></div>
+            <div><dt>Source</dt><dd><a href="https://images.nasa.gov/details/art002e010032" target="_blank" rel="noopener">https://images.nasa.gov/details/art002e010032</a></dd></div>
+            <div><dt>Original file</dt><dd><a href="https://images-assets.nasa.gov/image/art002e010032/art002e010032~orig.jpg" target="_blank" rel="noopener">https://images-assets.nasa.gov/image/art002e010032/art002e010032~orig.jpg</a></dd></div>
+            <div><dt>Credit</dt><dd>NASA</dd></div>
+            <div><dt>Processing</dt><dd>Cropped from 5568 × 3712 px to the surface, resized to 2560 × 1120 px and saved as WebP. A tinted overlay darkens it on the page.</dd></div>
+          </dl>
+        </article>
+        <article class="panel refblock reveal" data-d="2">
+          <h4 class="panel-title">Mars</h4>
+          <dl>
+            <div><dt>Title</dt><dd>Curiosity Rover View of Alluring Martian Geology Ahead</dd></div>
+            <div><dt>Image ID</dt><dd>PIA19803</dd></div>
+            <div><dt>Taken by</dt><dd>Curiosity rover, Mast Camera (Mastcam), looking south toward Mount Sharp</dd></div>
+            <div><dt>Source</dt><dd><a href="https://photojournal.jpl.nasa.gov/catalog/PIA19803" target="_blank" rel="noopener">https://photojournal.jpl.nasa.gov/catalog/PIA19803</a> · <a href="https://images.nasa.gov/details/PIA19803" target="_blank" rel="noopener">https://images.nasa.gov/details/PIA19803</a></dd></div>
+            <div><dt>Original file</dt><dd><a href="https://images-assets.nasa.gov/image/PIA19803/PIA19803~orig.jpg" target="_blank" rel="noopener">https://images-assets.nasa.gov/image/PIA19803/PIA19803~orig.jpg</a></dd></div>
+            <div><dt>Credit</dt><dd>NASA/JPL-Caltech/MSSS</dd></div>
+            <div><dt>Processing</dt><dd>Cropped from 7765 × 2000 px to the terrain, resized to 2560 × 1024 px and saved as WebP. A tinted overlay darkens it on the page.</dd></div>
+          </dl>
+        </article>
+        <article class="panel refblock reveal" data-d="1">
+          <h4 class="panel-title">The Story Mode</h4>
+          <dl>
+            <div><dt>Title</dt><dd>Apollo 8 Mission image, Earth over the horizon of the moon (“Earthrise”)</dd></div>
+            <div><dt>Image ID</dt><dd>AS08-14-2383</dd></div>
+            <div><dt>Taken by</dt><dd>Apollo 8 crew, Hasselblad camera, December 24, 1968, from lunar orbit</dd></div>
+            <div><dt>Source</dt><dd><a href="https://images.nasa.gov/details/as08-14-2383" target="_blank" rel="noopener">https://images.nasa.gov/details/as08-14-2383</a></dd></div>
+            <div><dt>Original file</dt><dd><a href="https://images-assets.nasa.gov/image/as08-14-2383/as08-14-2383~orig.jpg" target="_blank" rel="noopener">https://images-assets.nasa.gov/image/as08-14-2383/as08-14-2383~orig.jpg</a></dd></div>
+            <div><dt>Credit</dt><dd>NASA</dd></div>
+            <div><dt>Processing</dt><dd>Cropped from 3000 × 3000 px to Earth and the lunar horizon (3000 × 1620 px), resized to 2560 × 1382 px and saved as WebP. A tinted overlay darkens it on the page.</dd></div>
+          </dl>
+        </article>
+        <article class="panel refblock reveal" data-d="2">
+          <h4 class="panel-title">Scientific References</h4>
+          <dl>
+            <div><dt>Title</dt><dd>Tycho Crater's Peak</dd></div>
+            <div><dt>Image ID</dt><dd>GSFC_20171208_Archive_e001873</dd></div>
+            <div><dt>Taken by</dt><dd>Lunar Reconnaissance Orbiter Camera (LROC), June 10, 2011: a sunrise view of the central peak of Tycho crater, from lunar orbit</dd></div>
+            <div><dt>Source</dt><dd><a href="https://images.nasa.gov/details/GSFC_20171208_Archive_e001873" target="_blank" rel="noopener">https://images.nasa.gov/details/GSFC_20171208_Archive_e001873</a></dd></div>
+            <div><dt>Original file</dt><dd><a href="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001873/GSFC_20171208_Archive_e001873~orig.png" target="_blank" rel="noopener">https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001873/GSFC_20171208_Archive_e001873~orig.png</a></dd></div>
+            <div><dt>Credit</dt><dd>NASA Goddard/Arizona State University</dd></div>
+            <div><dt>Processing</dt><dd>Not cropped. The original is 2147 × 986 px, so it was enlarged to 2560 × 1176 px and saved as WebP. A tinted overlay darkens it on the page.</dd></div>
+          </dl>
+        </article>
+      </div>
+
+      <h3 class="subhead reveal" data-d="1" id="photos-title">Object photographs</h3>
+      <p class="lede reveal" data-d="2">The photograph shown under each object’s description in The Map Explorer and The Story Mode. Where no photograph of the object itself exists, its caption says what the image shows instead.</p>
+      <div class="two" id="photo-credits"></div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/references.js"></script>
+<script src="assets/js/reveal.js"></script>
+</body>
+</html>
